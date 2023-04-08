@@ -43,7 +43,7 @@ async def send_email(name: str = Form(...), email: str = Form(...), subject: str
     # create email message
     email_message = EmailMessage()
     email_message['From'] = email
-    email_message['To'] = 'amogharya2@gmail.com' # replace with your email address
+    email_message['To'] = 'singhananya2002@gmail.com' # replace with your email address
     email_message['Subject'] = subject
     email_message.set_content(f"Name: {name}\nEmail: {email}\n\n{message}")
     print(my_email,my_password)
